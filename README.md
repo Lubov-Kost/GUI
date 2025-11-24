@@ -3,9 +3,15 @@
 
 ## Как скачать
 
+*Клонируем репозиторий*
 ```bash
 git clone https://github.com/Lubov-Kost/GUI.git
 ```
+*Переходим в скачанную папку для работы с файлами*
+```bash
+cd GUI
+```
+*Скачиваем нужные зависимости*
 ```bash
 pip install -r requirements.txt
 ```
@@ -21,7 +27,7 @@ python calculate.py
 python patients.py
 ```
 
-**Для задания 1 (Урезанный FastQC)**
+**Для задания 3 (Урезанный FastQC)**
 ```bash
 python fastq_gui.py
 ```
